@@ -1,0 +1,65 @@
+/* Reset some default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Section styles */
+section {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Contact details */
+.contact-details p {
+    margin-bottom: 0.5rem;
+}
+
+/* Summary section */
+.summary {
+    background-color: #ffffff;
+}
+
+/* Skills and Languages section */
+.skills ul, .languages ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.skills ul li, .languages ul li {
+    margin-bottom: 0.3rem;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
